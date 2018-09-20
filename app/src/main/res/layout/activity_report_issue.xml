@@ -136,7 +136,7 @@
                 android:layout_height="40dp"
                 android:text="@string/send"
                 android:background="@drawable/button"
-                android:id="@+id/btn_signIn"
+                android:id="@+id/btn_report"
                 android:layout_marginBottom="15dp"
                 android:textSize="15sp"
                 android:textStyle="normal"
