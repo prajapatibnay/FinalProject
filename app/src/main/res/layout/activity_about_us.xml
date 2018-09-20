@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".Login"
+    tools:ignore="ContentDescription">
+
+ <!--   <TextView
+        android:text="Introduction"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6166006"
+        android:textColor="@color/white"/>-->
+
+    <TextView
+        android:id="@+id/introduction1"
+        android:text="@string/text_with_paragraph1"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="start"
+        android:layout_marginTop="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="5dp"/>
+
+<!--    <TextView
+        android:text="Objectives"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginTop="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6166006"
+        android:textColor="@color/white"/>-->
+
+<!--
+    <TextView
+        android:text="@string/text_with_paragraph2"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:gravity="left"
+        android:layout_marginTop="375dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"/>
+-->
+
+    <TextView
+        android:id="@+id/introduction2"
+        android:text="@string/text_with_paragraph3"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="start"
+        android:layout_marginTop="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/introduction1"/>
+
+    <ImageView
+        android:id="@+id/cluster"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/clustered1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/introduction2"/>
+
+</RelativeLayout>

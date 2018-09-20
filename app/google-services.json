@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "602485652329",
+    "firebase_url": "https://fohor-malai-2d7f4.firebaseio.com",
+    "project_id": "fohor-malai-2d7f4",
+    "storage_bucket": "fohor-malai-2d7f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602485652329:android:87c851cf6978127c",
+        "android_client_info": {
+          "package_name": "org.example.fohormalai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602485652329-tp1s8pg10rrjujli4lonsll676atj441.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.example.fohormalai",
+            "certificate_hash": "be38226e1fd5ca72d5360212c25e442c35c1428b"
+          }
+        },
+        {
+          "client_id": "602485652329-gmfkrd8amu9ehhk6f902o1ovaml043un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.example.fohormalai",
+            "certificate_hash": "d490f7dc9ec9bc9223ad697728b95365ef159323"
+          }
+        },
+        {
+          "client_id": "602485652329-qa0l55scds1of3b3nf50ap0g35hcmmj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.example.fohormalai",
+            "certificate_hash": "18350c2eccc17d7c70b99f99efa3d1fce66ee372"
+          }
+        },
+        {
+          "client_id": "602485652329-u7jlbc6ujm1hdo0sugbr3cc1b0aj99cu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.example.fohormalai",
+            "certificate_hash": "52badc83c24fa1613ff2cf4a6cd3de068056dc07"
+          }
+        },
+        {
+          "client_id": "602485652329-fhir16ua13ntsd74h14sm2dlsv1n6c00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGXjBWp25Xll__mr4bGnHO6HWwymOdqr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602485652329-fhir16ua13ntsd74h14sm2dlsv1n6c00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

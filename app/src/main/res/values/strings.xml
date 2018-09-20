@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">FOHOR MALAI</string>
+    <string name="description">A Mobile Application for Waste Management</string>
+    <string name="schedule">PickUp Schedule</string>
+    <string name="notification">SMS Notification</string>
+    <string name="bin">Report Waste Issues</string>
+    <string name="register">Register</string>
+    <string name="signIn">Sign In</string>
+    <string name="power">Powered by</string>
+    <string name="group_name">Clustered Concepts</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="conf_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="phoneNumber">Mobile Number</string>
+    <string name="member">Already a member? |</string>
+    <string name="to_login">Please login here</string>
+    <string name="notMember">Not a member yet?</string>
+    <string name="to_register">Please register here</string>
+    <string name="get_start">Get Started</string>
+    <string name="welcome">WELCOME</string>
+    <string name="new_user">I am new here</string>
+    <string name="old_user">I have an account</string>
+    <string name="acc_login">Account Login</string>
+    <string name="pls_verify">Please Verify</string>
+    <string name="verify">Verify</string>
+    <string name="ntc">9849375019</string>
+    <string name="ncell">9808270885</string>
+    <string name="email1">clustered.concepts018@gmail.com</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="message">Type a message</string>
+    <string name="notifi_1">Notification 1</string>
+    <string name="notifi_2">Notification 2</string>
+    <string name="notifi_3">Notification 3</string>
+    <string name="view_schedule">View My Schedule</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="send">Report</string>
+    <string name="insert">Attach Image</string>
+    <string name="capture">Capture Image</string>
+    <string name="location">Attach Location</string>
+    <string name="notify">Notify</string>
+    <string name="mySchedule">My Schedule</string>
+    <string name="Referesh"><u>This is my underlined text</u></string>
+    <string name="default_notification_channel_id">default</string>
+
+
+    <string-array name="State">
+        <item>Select your State...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="Zone">
+        <item>Select your Zone...</item>
+        <item>Bagmati</item>
+        <item>Lumbini</item>
+        <item>Gandaki</item>
+    </string-array>
+
+    <string-array name="District">
+        <item>Select your District...</item>
+        <item>Kathmandu</item>
+        <item>Bhaktapur</item>
+        <item>lalitpur</item>
+    </string-array>
+
+    <string-array name="Municipality">
+        <item>Select your Municipality...</item>
+        <item>Madhyapur Thimi</item>
+        <item>Bhaktapur</item>
+        <item>Surya-Vinayak</item>
+        <item>ChanguNarayan</item>
+    </string-array>
+
+    <string-array name="WardNo">
+        <item>Select your Ward No...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string name="text_with_paragraph1">
+                “FOHOR MALAI” software is basically related to waste management through the use of IoT.
+                Our software provides scheduling for the pickup of household waste materials which makes it easy for
+                the users to optimize their valuable time. This software has a notification system which alerts the
+                users about the time when the garbage truck is available for household waste pickup.
+    </string>
+
+    <string name="text_with_paragraph3">
+                This mobile application is primarily used by the public government bodies
+                and private waste management companies.
+    </string>
+
+    <string name="text_with_paragraph2">
+                 \u2022	To provide scheduling for the collection of household waste materials.\n
+                 \u2022	To provide SMS notification about the waste collection   time schedule.\n
+                 \u2022	Resource mobilization.\n
+                 \u2022	To implement Smart Dustbin system using IoT.\n
+    </string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Profile</string>
+    <string name="nav_header_subtitle">user@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_others">Others</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
