@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,6 +22,7 @@ import org.example.fohormalai.Registration;
 public class ReportIssueActivity extends AppCompatActivity {
 
     private TextView et_attach, et_capture;
+    private EditText message;
     private static int RESULT_LOAD_IMAGE = 1;
     private final static int Pick_Image = 1;
     private final static int Capture_Image = 1;
@@ -38,6 +40,7 @@ public class ReportIssueActivity extends AppCompatActivity {
         attachimage = findViewById(R.id.imgView1);
         captureimage = findViewById(R.id.imgView2);
 
+
         // get action bar
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Report Waste Issues !");
@@ -45,6 +48,7 @@ public class ReportIssueActivity extends AppCompatActivity {
         // Enabling Up / Back navigation
         actionBar.setDisplayHomeAsUpEnabled(true);
 
+        message = (EditText) findViewById(R.id.type_message);
         et_attach = (TextView)findViewById(R.id.insert);
         et_capture = (TextView)findViewById(R.id.capture);
         btn_report = (Button) findViewById(R.id.btn_report);
@@ -77,8 +81,8 @@ public class ReportIssueActivity extends AppCompatActivity {
                 emailIntent.setType("application/image");
                 emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"clustered.concepts018@gmail.com"});
                 emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Report Waste Issues");
-                emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Message");
-                emailIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(""));
+                emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, message.getText().toString());
+                emailIntent.putExtra(Intent.EXTRA_STREAM, mImageUri);
                 startActivity(emailIntent);
             }
         });
