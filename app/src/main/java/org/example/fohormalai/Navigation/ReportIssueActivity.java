@@ -70,8 +70,15 @@ public class ReportIssueActivity extends AppCompatActivity {
         btn_report.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+/*                Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
                 emailIntent.setData(Uri.parse("mailto:clustered.concepts018@gmail.com"));
+                startActivity(emailIntent);*/
+                Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
+                emailIntent.setType("application/image");
+                emailIntent.putExtra(android.content.Intent.EXTRA_EMAIL, new String[]{"clustered.concepts018@gmail.com"});
+                emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,"Report Waste Issues");
+                emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, "Message");
+                emailIntent.putExtra(Intent.EXTRA_STREAM, Uri.parse(""));
                 startActivity(emailIntent);
             }
         });
